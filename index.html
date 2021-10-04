@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#181409">
     <link rel="stylesheet" href="estilos.css">
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="scripts.js"></script>
     <title>Projeto TCC</title>
     
     
@@ -14,24 +16,35 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            
-        </nav>
-    </header>
     <h1> Espécies em perigo de extinção monitoradas</h1>
     <div style="display: inline-flex;">
-        <select class="selecionar_biomas" name="biomas">
-            <option disabled="disabled" selected="selected">Biomas</option>
-            <option>Cerrado</option>
-            <option>Amazônia</option>
+        <div class="borda_selecionar">
+            <select id="select">
+                <option disabled="disabled" selected="selected">Biomas</option>
+                <option value="cerrado">Cerrado</option>  
+                <option value="amazonia">Amazônia</option> 
+                <option value="savanaA">Savana Africana</option>
             </select>
+        </div>
             <div class="borda_geral">
-                <dir class="borda">
-                    Leões
-                </dir>
+                   <div id="pai"> 
+                        <div id="savanaA">
+                                <div class="borda">
+                                    Leões
+                                </div>
+                        </div>
+                        <div id = "amazonia">
+                            <div class="borda">
+                               Rã da amazônia 
+                            </div>
+                        </div>
+                        <div id="cerrado">
+                            <div class="borda">
+                                Ariranha
+                            </div>
+                        </div>
+                    </div>
             </div>
-
+ <
 </body>
-
 </html>
