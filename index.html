@@ -1,50 +1,55 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 
-<head>
+    <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#181409">
     <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="jquery-3.6.0.min.js"></script>
     <script src="scripts.js"></script>
     <title>Projeto TCC</title>
-    
-    
+    </head>
 
-</head>
-
-<body>
-    <h1> Espécies em perigo de extinção monitoradas</h1>
+<body style="background-color: #181409;">
+    <div class="titulo">
+        <h1> Espécies em monitoreamento</h1>
+    </div>
     <div style="display: inline-flex;">
         <div class="borda_selecionar">
             <select id="select">
-                <option disabled="disabled" selected="selected">Biomas</option>
+                <option disabled="disabled" selected="selected">Selecione um bioma</option>
                 <option value="cerrado">Cerrado</option>  
                 <option value="amazonia">Amazônia</option> 
                 <option value="savanaA">Savana Africana</option>
             </select>
         </div>
             <div class="borda_geral">
-                   <div id="pai"> 
+                <div class="row">
+                    <div id="pai"> 
                         <div id="savanaA">
-                                <div class="borda">
-                                    Leões
+                                <div class="col-lg 4 col-md 6 col-sm 9 col-xs 12 borda ">
+                                 <img class="imagem_pequena" src="imgs/leao.jpg" alt="Leão" >
+                                <p class="texto_pequeno">Leão da savana</p>
                                 </div>
                         </div>
                         <div id = "amazonia">
-                            <div class="borda">
-                               Rã da amazônia 
+                            <div class="col-lg 4 col-md 6 col-sm 9 col-xs 12 borda">
+                                <img class="imagem_pequena" src="imgs/ra.jpg" alt="Rã">
+                                <p class="texto_pequeno">Rã venenosa</p>
                             </div>
                         </div>
                         <div id="cerrado">
-                            <div class="borda">
-                                Ariranha
+                            <div class="col-lg 4 col-md 6 col-sm 9 col-xs 12 borda">
+                                <img class="imagem_pequena" src="imgs/ariranha.jpg" alt="Ariranha" >
+                                <p class="texto_pequeno">Ariranha</p>
                             </div>
                         </div>
                     </div>
+                </div>
             </div>
- <
+ 
 </body>
 </html>
