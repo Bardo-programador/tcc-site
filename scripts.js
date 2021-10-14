@@ -1,8 +1,12 @@
-window.alert('testando')
 $(document).ready(function(){
 	$('#select').on('change',function(){
 		var selectValor = '#'+$(this).val();
-		$('#pai').children('div').hide();
-		$('#pai').children(selectValor).show();
+		if (selectValor == '#todos') {
+			$('#pai').children('div').show();	
+		} else {
+			$('#pai').children('div').hide();
+			$('#pai').children(selectValor).show();
+		}
 	});
 });
+
