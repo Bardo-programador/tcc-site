@@ -18,7 +18,8 @@
         <div style="display: inline-flex;">
             <div class="borda_selecionar">
                 <select id="select">
-                    <option disabled="disabled" selected="selected">Selecione um bioma</option>
+                    <option value="todos" selected="selected">Todos</option>
+                    <option value="oceano">Oceano</option>
                     <option value="cerrado">Cerrado</option>  
                     <option value="amazonia">Amazônia</option> 
                     <option value="savanaA">Savana Africana</option>
@@ -28,25 +29,39 @@
                     <div class="row">
                         <div id="pai"> 
                             <div id="savanaA">
-                                    <div class="col-lg 2 col-md 4 col-sm 6 col-xs 12 borda ">
-                                     <img class="imagem_pequena" src="imgs/leao.jpg" alt="Leão" >
-                                    <p>Leão da savana</p>
-                                    </div>
+                                <div class="col-lg 2 col-md 4 col-sm 6 col-xs 12 borda ">
+                                    <img class="imagem_pequena" src="imgs/leao.jpg" alt="Leão" >
+                                    <h3 class="animal_titulo">Leão da Savana</h3><br>
+                                    <p><b>Nome científico</b>: <i>Panthera leo</i></p>
+                                    <p>População: ≅ 32000 espécies</p>  
+                                    <br><br>       
+                                </div>
                             </div>
                             <div id = "amazonia">
                                 <div class="col-lg 2 col-md 4 col-sm 6 col-xs 12 borda">
-                                    <img class="imagem_pequena" src="imgs/ra.jpg" alt="Rã">
-                                    <p>Boto cor de rosa</p>
+                                    <img class="imagem_pequena" src="imgs/boto.jpg" alt="Rã">
+                                    <h3 class="animal_titulo">Boto cor de rosa</h3><br>                                   
+                                    <p>Nome científico: <i>Inia geoffrensis</i></p>
+                                    <p>População: 448 espécies</p>
+                                    <p>Principal predador aquático da Amazônia ajudando no controle de natalidade de outras espécies menores</p>
                                 </div>
                             </div>
                             <div id="cerrado">
-                                <div class="col-lg 2 col-md 4 col-sm 6 col-xs 12 borda">
+                                <div class="col-lg 4 col-md 4 col-sm 6 col-xs 12 borda">
                                     <img class="imagem_pequena" src="imgs/ariranha.jpg" alt="Ariranha" >
-                                    <p>Ariranha</p>
+                                    <h3 class="animal_titulo">Ariranha</h3>
                                 </div>
+                            </div>    
+                            <div id ="oceano">
+                                <div class="col-lg 2 col-md 4 col-sm 6 col-xs 12 borda">
+                                    <img class="imagem_pequena" src="imgs/baleia_franca.jpeg" alt="Baleia-Franca">
+                                    <h3 class="animal_titulo">Baleia-Franca</h3>
+                                </div>
+                            </div>    
                         </div>
                     </div>
                 </div>
             </div>
+        </div>        
 </body>
 </html>
