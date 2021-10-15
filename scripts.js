@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	$('#select').on('change',function(){
+	$('#selecter').on('change',function(){
 		var selectValor = '#'+$(this).val();
 		if (selectValor == '#todos') {
 			$('#pai').children('div').show();	
