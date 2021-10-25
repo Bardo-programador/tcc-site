@@ -40,7 +40,7 @@ header{
     position:static;
     top: 0;
 }
-li, a, button, p{
+li, p{
     font-family: 'Poppins', sans-serif;
     text-align: justify;
     text-decoration: none;
@@ -85,7 +85,7 @@ body::-webkit-scrollbar-thumb{
     border-radius: 25px;
 }
 .borda_geral{
-    margin-left: 50px;
+    margin-left: 3px;
     border-radius: 15px;
     padding-top: 15px;
     padding-left: 5px;
@@ -116,6 +116,10 @@ label{
     margin-left: 20px;
 }
 select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
     background-color: rgb(235, 235, 112);
     font-size: 18px;
     font-family: Verdana, Trebuchet,sans-serif;;
@@ -131,6 +135,7 @@ option{
    
 }
 #selecter{
+    -moz-appearance: none;
     margin-right: 30px;
     margin-left: 10px;
     align-self: center;
@@ -150,4 +155,8 @@ font-family: 'Poppins', sans-serif;
 color: #edf0f1;
 display: inline-block;
 margin-bottom: 30px;  
+}
+a, button{
+    display: inline-block;
+    width: 100px;
 }
