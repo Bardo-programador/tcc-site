@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:ital,wght@1,500&display=swap');
+.borda{
+        height: 500px;
+        width: auto;
+        border-radius: 10px;
+        box-shadow: 5px 5px 15px rgba(0,0,0,0.9);  
+        margin-top: 5px; 
+        margin-left: 20px;
+          
+        background-color: #3F2BD1;
+        position: relative;
+        display: inline_block;
+}   
+.imagem_pequena{
+        width: 494px;
+        height: 230px;
+        margin-top: 10px;
+        padding-bottom: 30px;
+        border-radius: 8px;
+        float: center;       
+        margin-left: 25px;
+        position: relative;
+        display: block;
+}
+.nav_links{
+     display: none;
+}
+body, html{
+    height: 3500px;
+    margin: 0;
+    background-color:#181409;
+    scroll-behavior: smooth;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-decoration: none;
+    padding: 20px 3%;
+    position:static;
+    top: 0;
+}
+li, p{
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+    text-decoration: none;
+    color: #edf0f1;
+    font-size: 18px;
+    line-height: 100%;
+    width: 440px;
+}
+li{
+    text-shadow: black 0.2em 0.2em 0.3em;
+}
+button {
+    padding: 8px 25px;
+    border-radius: 50px;
+    margin-bottom: 3%;
+    border: none;
+    border-color: transparent;
+    background-color: #013c66;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #327baf;
+    transition: 0.3s ease 0s;
+}
+
+li:hover{
+    text-shadow: #023c64 0.2em 0.2em 0.3em;
+    transition: 0.3s ease 0s;
+}
+
+body::-webkit-scrollbar{
+    width: 7px;
+    background-color:#181409;
+}
+
+body::-webkit-scrollbar-track{
+    background:none;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: #edf0f1;
+    border-radius: 25px;
+}
+.borda_geral{
+    border-radius: 15px;
+    padding-top: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: solid;
+    height: 1050px; 
+    width: 1170px;
+    background-color: #1C1D86;
+}
+label{
+    font-family: 'Poppins', sans-serif;
+    color: #edf0f1;
+}
+.selecionar_biomas{
+    border: transparent;
+    border-right: solid;
+    margin-left: 10px;
+    height: 34px;
+    margin-right: 30px;
+    font-family:Verdana, Trebuchet,sans-serif;
+    background-color: #BEBEBE;
+}
+.borda_selecionar{
+    color: yellow;
+    border: transparent;
+    height: 30px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+    background-color: rgb(235, 235, 112);
+    font-size: 18px;
+    font-family: Verdana, Trebuchet,sans-serif;;
+
+}
+option{
+    text-align: center;
+    font-family:Verdana, Trebuchet,sans-serif;
+    font-size:18px;
+}
+#pai div{
+   display: inline-block;
+   
+}
+#selecter{
+    -moz-appearance: none;
+    margin-right: 30px;
+    margin-left: 10px;
+    align-self: center;
+    border-radius: 20px;
+    border: turquoise;
+    width: 150px;
+    height: 50px;
+    font-family:Verdana, Trebuchet,sans-serif;
+    font-size: 18px;
+}
+.titulo{
+    font-family: 'Poppins', sans-serif;
+    color: #A19E9D;
+}
+.animal_titulo{
+font-family: 'Poppins', sans-serif;
+color: #edf0f1;
+display: inline-block;
+margin-bottom: 30px;  
+}
+a, button{
+    border: 10px;
+    margin-top: 50px;
+    margin-right: 20    px;
+    margin-left: 30px;
+    display: inline-block;
+    width: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
