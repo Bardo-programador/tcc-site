@@ -1,0 +1,145 @@
+
+/* geral */
+body{
+    max-height: 2000px;
+    background: rgb(209, 235, 199);
+}
+* {
+    max-height: 1100px;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Barra de navegação */
+nav{
+    text-align: center;
+    background-color: #20976a;
+    border-bottom: 4px solid#47b694;
+    height: 150px;
+    width: 100%;
+    
+}
+
+#Logo {
+    max-width: ;
+    margin-left: 10px;
+    align: middle;
+    position:absolute;
+    top: 3%;
+    left: 0%;
+    right:  2%;
+ 
+
+} 
+#Menu { 
+    height: 1000000px;
+    margin-right: 7%;
+    list-style:none;
+}
+
+.item{
+    margin-top: 115px;
+
+    display: inline-block;
+    margin-left: 15px;
+
+    
+}
+.item a{
+    color: rgb(39, 25, 25);
+    text-decoration: none;
+}
+.item a:hover{
+    color: rgb(8, 29, 223);
+    transition: .3s;
+
+    }
+
+#title1{
+    width: 1400px;
+    max-width: 1400px;
+    margin-right: 250px;
+    margin-top: 75px;
+    color:rgb(20, 83, 25);
+    
+}
+#bus1{
+    margin-right: 250px;
+    width: 60%;
+    margin-left: 100px;
+    
+    
+}
+.bus1{
+    margin-right: 150px;
+    text-align: justify;
+    color: #1e8023;
+}
+
+.text1{
+    height: 200px;
+    width: 500px;
+    font-size: 100%;
+    margin-bottom: 150px;
+    margin-left: 100px;   
+}
+body::-webkit-scrollbar-thumb{
+    height: 100px;
+}
+body::-webkit-scrollbar {
+    width: 10px;               /* width of the entire scrollbar */
+}
+  
+body::-webkit-scrollbar-track {
+    background:rgb(209, 235, 199);        /* color of the tracking area */
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color: #20976a;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #47b694;  /* creates padding around scroll thumb */
+}
+#ctext{
+      display: flex;
+
+      flex-wrap: nowrap;
+
+    margin-left: 25px;
+  }
+.moni{
+      margin-bottom: ;
+      position: absolute;
+      margin-left: 700px;
+      border: solid;
+      height: 450px;
+      width: 600px;
+      
+ }
+    
+h3{
+    
+text-align: justify;
+}
+
+.conteudo {
+    margin-right: 500px;
+    margin-bottom: 100px;
+    align-self: center;
+    width: 500px;
+    height: 750px;
+    border: solid;
+    display: inline-flex;
+}
+div{       
+    align-self: center;
+  }
+.nav_alt{
+    margin-bottom: ;
+    
+
+}
+.row{
+    display: inline-flex;
+}
+html{
+    height: auto;
+}
