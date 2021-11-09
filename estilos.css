@@ -5,14 +5,13 @@
         border-radius: 10px;
         box-shadow: 5px 5px 15px rgba(0,0,0,0.9);  
         margin-top: 5px; 
-        margin-left: 20px;
-          
+        margin-left: 20px; 
         background-color: #3F2BD1;
         position: relative;
         display: inline_block;
 }   
 .imagem_pequena{
-        width: 494px;
+        width: 450px;
         height: 230px;
         margin-top: 10px;
         padding-bottom: 30px;
@@ -91,7 +90,7 @@ body::-webkit-scrollbar-thumb{
     padding-right: 5px;
     border: solid;
     height: 1050px; 
-    width: 1170px;
+    width: 1080px;
     background-color: #1C1D86;
 }
 label{
@@ -146,6 +145,7 @@ option{
     font-size: 18px;
 }
 .titulo{
+    text-align: center;
     font-family: 'Poppins', sans-serif;
     color: #A19E9D;
 }
@@ -156,12 +156,19 @@ display: inline-block;
 margin-bottom: 30px;  
 }
 a, button{
-    border: 10px;
+    border-radius: 50px;
     margin-top: 50px;
     margin-right: 20    px;
     margin-left: 30px;
     display: inline-block;
     width: 100px;
+    height: 150px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
+}
+.botao{
+    border-radius: 30px;
+    margin-top: 150px;
+    width: 150px;
+    font-size: 25px;
 }
