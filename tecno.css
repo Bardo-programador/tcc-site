@@ -1,0 +1,195 @@
+
+
+/* geral */
+body{
+    max-height: 2000px;
+    background: rgb(209, 235, 199);
+}
+* {
+    max-height: 1100px;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Barra de navegação */
+nav{
+    
+    width: 1550px;
+    text-align: center;
+    background-color: #20976a;
+    border-bottom: 4px solid#47b694;
+    height: 150px;
+}
+
+#Logo {;
+    margin-left: 10px;
+    align: middle;
+    position: relative;
+    top: 3%;
+    left: 0%;
+    right:  2%;
+ 
+
+} 
+#Menu {
+    margin-bottom: 10000px;
+    text-align: center;
+    position: relative; 
+    height: auto;
+    margin-right: 7%;
+    list-style:none;
+}
+
+.item{
+    margin-left: 15px;
+    font-size: 25px;
+    margin-top: 30px;
+    text-align: center;
+    display: inline;
+   
+
+    
+}
+.item a{
+    color: rgb(39, 25, 25);
+    text-decoration: none;
+}
+.item a:hover{
+    color: rgb(8, 223, 169);
+    transition: .3s;
+
+    }
+
+#title1{
+    width: 1400px;
+    max-width: 1400px;
+    margin-right: 250px;
+    margin-top: 75px;
+    color:rgb(20, 83, 25);
+    
+}
+#bus1{
+    margin-right: 250px;
+    width: 60%;
+    margin-left: 100px;
+    
+    
+}
+.bus1{
+    margin-left: 60px;
+    margin-top: 60px;
+    height: auto;
+    width: 800px;
+    margin-right: 150px;
+    text-align: justify;
+    color: #1e8023;
+}
+
+.text1{
+    height: 200px;
+    width: 500px;
+    font-size: 100%;
+    margin-bottom: 0;
+    margin-left: 150px;   
+}
+.text2{
+    margin-top: 120px;
+    height: 200px;
+    width: 500px;
+    font-size: 100%;
+    margin-left: 150px;   
+}
+.text3{
+    margin-top: 60px;
+    height: 200px;
+    width: 500px;
+    font-size: 100%;
+   
+    margin-left: 150px;   
+}
+body::-webkit-scrollbar-thumb{
+    height: 100px;
+}
+body::-webkit-scrollbar {
+    width: 10px;               /* width of the entire scrollbar */
+}
+  
+body::-webkit-scrollbar-track {
+    background:rgb(209, 235, 199);        /* color of the tracking area */
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color: #20976a;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #47b694;  /* creates padding around scroll thumb */
+}
+#ctext{
+      display: flex;
+
+      flex-wrap: nowrap;
+
+    margin-left: 25px;
+  }
+.moni{
+
+      position: absolute;
+      margin-left: 800px;
+      border: solid;
+      height: 250px;
+      width: 470px;
+      margin-top: 30px;
+      
+ }
+ .moni2{
+
+    position: absolute;
+    margin-left: 800px;
+    border: solid;
+    height: 210px;
+    width: 470px;
+    margin-top: 370px;
+    
+}
+.moni3{
+
+    position: absolute;
+    margin-left: 800px;
+    border: solid;
+    height: 210px;
+    width: 470px;
+    margin-top: 670px;
+    
+}
+h3{
+    
+text-align: justify;
+}
+
+.conteudo {
+    margin-right: 500px;
+    margin-bottom: 100px;
+    align-self: center;
+    width: 500px;
+    height: 750px;
+    border: solid;
+    display: inline-flex;
+}
+div{       
+    align-self: center;
+  }
+.row{
+    margin-top: 20px;
+
+    text-align: center;
+    display: inline-flex;
+}
+#Home{
+    
+    margin-right: 50px;
+    text-align: center;
+    font-size: 50px;
+    
+
+}
+#col1{
+    margin-top: 30px;
+}
