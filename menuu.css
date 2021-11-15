@@ -53,7 +53,7 @@ nav{
     text-decoration: none;
 }
 .item a:hover{
-    color: rgb(8, 29, 223);
+    color: rgb(8, 223, 169);
     transition: .3s;
 
     }
