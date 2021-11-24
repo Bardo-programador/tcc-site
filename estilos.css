@@ -142,8 +142,11 @@ option{
     font-size: 18px;
 }
 .titulo{
+    width: 1400px;
+    max-width: 1400px;
+    position: relative;
     text-align: center;
-    font-family: 'Poppins', sans-serif;
+    font-family:Verdana, Trebuchet,sans-serif;
     color: #000000;
 }
 .animal_titulo{
@@ -177,13 +180,9 @@ a, button{
 
 .item{
     margin-left: 10px;
-    
     width: 100px;
     text-align: center;
     display: inline;
-   
-
-    
 }
 .item a{
     margin-bottom: 10px;
