@@ -45,8 +45,9 @@ p{
     text-decoration: none;
     color: #edf0f1;
     font-size: 18px;
-    line-height: 100%;
-    width: 440px;
+    line-height: 105%;
+    max-width: 430px;
+    width: auto;
 }
 button {
     padding: 8px 25px;
@@ -86,7 +87,7 @@ body::-webkit-scrollbar-thumb{
     padding-left: 5px;
     padding-right: 5px;
     border: solid;
-    height: 1050px; 
+    height: 1120px; 
     width: 1080px;
     background-color: #1C1D86;
 }
@@ -104,48 +105,46 @@ label{
     background-color: #BEBEBE;
 }
 .borda_selecionar{
-    color: #20976a
+    color: #20976a;
     border: transparent;
-    height: 30px;
-    margin-right: 10px;
-    margin-left: 20px;
+    
 }
 select{
     -webkit-appearance: none;
-    -moz-appearance: none;
     text-indent: 1px;
     text-overflow: '';
     background-color: #20976a;
-    font-size: 18px;
-    font-family: Verdana, Trebuchet,sans-serif;;
 
 }
 option{
     text-align: center;
     font-family:Verdana, Trebuchet,sans-serif;
-    font-size:18px;
+    font-size:25px;
 }
 #pai div{
    display: inline-block;
-   
 }
 #selecter{
     -moz-appearance: none;
     margin-right: 30px;
-    margin-left: 10px;
     align-self: center;
     border-radius: 20px;
     border: turquoise;
-    width: 150px;
-    height: 50px;
+    width: 250px;
+    height: 100px;
     font-family:Verdana, Trebuchet,sans-serif;
-    font-size: 18px;
+    font-size: 30px;
 }
 .titulo{
-    width: 1400px;
-    max-width: 1400px;
-    position: relative;
+    padding-top: 5px;
+    margin-left: 13px;
     text-align: center;
+    width: 1040px;
+    height: 70px;
+    border: transparent;
+    border-radius: 10px;
+    background-color: #3F2BD1;
+    position: absolute;
     font-family:Verdana, Trebuchet,sans-serif;
     color: #000000;
 }
@@ -157,10 +156,8 @@ margin-bottom: 30px;
 }
 a, button{
     color: black;
-    border-radius: 50px;
     margin-right: 0px;
     width: 100px;
-    height: 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .botao{
@@ -171,7 +168,7 @@ a, button{
 }
 #Menu {
     font-size: 35px;
-    margin-right: 100px;
+    margin-right: 120px;
     width: auto; 
     height: auto;
     list-style:none;
@@ -194,8 +191,8 @@ a, button{
     transition: .3s;
 
 }
-nav{
-    width: 1500x;
+.navegacao{
+    width: 2050px;
     text-align: center;
     background-color: #20976a;
     border-bottom: 4px solid#47b694;
